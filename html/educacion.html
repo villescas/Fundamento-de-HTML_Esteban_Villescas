@@ -28,6 +28,95 @@
         <li><a href="experiencia.html">Experiencia</a></li>
       </ul>
     </navbar>
+    <section>
+      <h2>Educación</h2>
+      <table border="1", cellpadding="10", cellspacing="0" name="tabla_educacion">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2008</td>
+            <td>Colegio Jordan de Sajonia</td>
+            <td>Bogota D.C.</td>
+            <td>Culminado</td>
+          </tr>
+          <tr>
+            <td>2018</td>
+            <td>Universidad de Palermo</td>
+            <td>Caba, Buenos Aires</td>
+            <td>En curso</td>
+          </tr>
+          <tr>
+            <td>2018</td>
+            <td>Next University</td>
+            <td>Online</td>
+            <td>En curso</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+    </section>
+    <section>
+      <form name="agregar_estudios" autocomplete="on">
+        <legend><h2>Agregar Estudios</h2></legend>
+        <p>
+        <label for="ano"><strong>Año: </strong></label>
+        <select id="ano" name="ano" required>
+          <option>1990</option>
+          <option>1991</option>
+          <option>1992</option>
+          <option>1993</option>
+          <option>1994</option>
+          <option>1995</option>
+          <option>1996</option>
+          <option>1997</option>
+          <option>1998</option>
+          <option>1999</option>
+          <option>2000</option>
+          <option>2001</option>
+          <option>2002</option>
+          <option>2003</option>
+          <option>2004</option>
+          <option>2005</option>
+          <option>2006</option>
+          <option>2007</option>
+          <option>2008</option>
+          <option>2009</option>
+          <option>2010</option>
+          <option>2011</option>
+          <option>2012</option>
+          <option>2013</option>
+          <option>2014</option>
+          <option>2015</option>
+          <option>2016</option>
+          <option>2017</option>
+          <option>2018</option>
+        </select>
+        </p>
+        <p>
+        <label for="institucion"><strong>Institución: </strong></label>
+        <input type="text" name="institucion" size="35" required>
+        </p>
+        <p>
+        <label for="lugar"><strong>Lugar: </strong></label>
+        <input type="text" name="lugar" required size="40">
+        </p>
+        <p>
+        <label for="culmino"><strong>¿Culminó?: </strong></label>
+          <input type="radio" name="culmino" required> Si
+          <input type="radio" name="culmino" required> No
+        </p>
+        <p>
+          <input type="submit" value="Enviar" name="Enviar">
+        </p>
+      </form>
+    </section>
     <footer>
       <p>
         <strong>Información de contacto:</strong><br>
